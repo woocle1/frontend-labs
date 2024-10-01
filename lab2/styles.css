@@ -1,0 +1,105 @@
+table {
+  width: 600px;
+  height: 150px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:nth-child(1) {
+  background-color: #048f8f;
+}
+tr:nth-child(1):hover {
+  background-color: #f5f504;
+}
+tr:nth-child(2) {
+  background-color: #f5f504;
+}
+tr:nth-child(2):hover {
+  background-color: #048f8f;
+}
+.wrapper {
+  position: relative;
+  padding: 30px;
+}
+.line1 {
+  position: absolute;
+  width: 120px;
+  height: 4px;
+  left: 20px;
+  top: 77px;
+  background-color: black;
+}
+.line2 {
+  position: absolute;
+  width: 4px;
+  height: 120px;
+  left: 77px;
+  bottom: 20px;
+  background-color: black;
+}
+.circle1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.circle2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.circle3 {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.secondWrapper {
+  padding: 30px;
+}
+.secondLine1 {
+  width: 120px;
+  height: 4px;
+  transform: translate(-10px, -54px);
+  background-color: black;
+}
+.secondLine2 {
+  width: 4px;
+  height: 120px;
+  transform: translate(48px, -114px);
+  background-color: black;
+}
+.secondCircle1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.secondCircle2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.secondCircle3 {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
