@@ -1,0 +1,26 @@
+#usersInfo {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.user-info {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.user-info img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.user-info p {
+  margin: 5px 0;
+  word-wrap: break-word;
+  white-space: normal;
+}
